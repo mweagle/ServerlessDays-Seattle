@@ -13,17 +13,17 @@ class Home extends Component {
           </ScrollableAnchor>
           <Row>
             <Col s={12} m={4} l={4} className='center-align top-marg'>
-              <img src={'./media/unicorn_mascot.png'} alt={'ServerlessDays mascot'} className='responsive-img not-wide' />
+              <img src={'/media/unicorn_mascot.png'} alt={'ServerlessDays mascot'} className='responsive-img not-wide' />
               <h4 className='top-marg'>Inclusive</h4>
               <p>Hone your cloud skills and learn the power of serverless during the conference dedicated to the serverless development community.</p>
             </Col>
             <Col s={12} m={4} l={4} className='center-align top-marg'>
-              <img src={'./media/octo_mascot.png'} alt={'ServerlessDays mascot'} className='responsive-img not-wide' />
+              <img src={'/media/octo_mascot.png'} alt={'ServerlessDays mascot'} className='responsive-img not-wide' />
               <h4 className='top-marg'>Real</h4>
               <p>The single day, single track conference for everyone where real users showcase their solution to common problems using serverless platforms.</p>
             </Col>
             <Col s={12} m={4} l={4} className='center-align top-marg'>
-              <img src={'./media/moth_mascot.png'} alt={'ServerlessDays mascot'} className='responsive-img not-wide' />
+              <img src={'/media/moth_mascot.png'} alt={'ServerlessDays mascot'} className='responsive-img not-wide' />
               <h4 className='top-marg'>Growing</h4>
               <p>Whether you are a beginner or an expert, meet like minded-people and build your network in the global cloud society.</p>
             </Col>

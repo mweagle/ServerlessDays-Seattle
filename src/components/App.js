@@ -35,7 +35,7 @@ class App extends Component {
                   return (
                     <div className='container center-align'>
                       <h1>Not found!</h1>
-                      <img src={'./media/octo_mascot.png'} alt={'404 Octopus'} className='responsive-img not-wide' />
+                      <img src={'/media/octo_mascot.png'} alt={'404 Octopus'} className='responsive-img not-wide' />
                       <p>We can't find what you're looking for. How about going <Link to='/'>home</Link>?</p>
                     </div>
                   );

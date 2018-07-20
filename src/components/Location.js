@@ -8,7 +8,7 @@ class Location extends Component {
         <div className='container' id='top'>
           <h2 className='center-align'>Join us in Seattle!</h2>
         </div>
-        <img src={'./media/seattle-870282_1920.jpg'} alt={'Seattle Skyline'} className='full-img' />
+        <img src={'/media/seattle-870282_1920.jpg'} alt={'Seattle Skyline'} className='full-img' />
         <div className='container'>
           <div className='container'>
             <h2 className='center-align' id='venue'>Venue</h2>
@@ -17,7 +17,7 @@ class Location extends Component {
             <div className='small-space' />
           </div>
         </div>
-        <img src={'./media/Lecture-Hall-1-Gallery-2017-c623946fe5.jpg'} alt={'Nesholm Family Lecture Hall'} className='full-img' />
+        <img src={'/media/Lecture-Hall-1-Gallery-2017-c623946fe5.jpg'} alt={'Nesholm Family Lecture Hall'} className='full-img' />
         <div className='small-space' />
         <h2 className='center-align' id='map'>Map</h2>
         <Map />
